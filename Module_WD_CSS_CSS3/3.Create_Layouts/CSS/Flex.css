@@ -1,0 +1,26 @@
+.main-layout-container {
+    display: flex;
+    gap: 20px;
+    width: 77%;
+    margin-bottom: 14px;
+}
+.three-layouts {
+    border: 1px solid black;
+    height: auto;
+}
+.Thumbnail {
+    display: flex;
+    justify-content: space-around;
+    background-color: #57585c;
+    color: white;
+    font-family: System-ui;
+    height: 150px;
+    align-items: center;
+}
+.paragraph-section {
+    font-size: 12px;
+    font-family: System-ui;
+    background-color: #ffffff;
+    padding: 8px;
+}
+

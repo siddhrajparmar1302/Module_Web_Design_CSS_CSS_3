@@ -1,0 +1,99 @@
+.clip-path-container{
+    position: relative;
+    background: url('../Image/TIgers.jpg') center/cover no-repeat;
+    height: 121vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(0 20%, 100% -16%, 147% 72%, 50% 86%, 0 78%);
+    margin-top: -13%;
+    overflow: hidden; 
+    background-position: top;
+}
+.clip-path-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -12%;
+    align-items: center;
+    padding: 55px;
+    gap: 190px;
+    margin-top: -17%;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-family: monospace;
+    font-weight: 800;
+}
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+li.home a {
+    color: #e63900;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-around;
+}
+.header-content h1 {
+    font-size: 50px;
+    color: #e84b3c;
+}
+.paragraph-container {
+    display: flex;
+    justify-content: center;
+}
+.paragraph-container p{
+    font-size: 17px;
+}
+p.logos {
+    border: 4px solid white;
+    padding: 3px;
+}
+span.l-word {
+    padding: 6px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    font-size: 19px;
+    margin-left: -11%;
+}
+.content-container {
+    font-family: monospace;
+}
+.header-content h1 {
+    font-size: 40px;
+}
+ul li a {
+    font-size: 19px;
+}
+button.btn-get-started {
+    color: white;
+    background-color: #e84b3c;
+    padding: 13px;
+}
+button.btn-learn-more{
+    padding: 13px;
+}

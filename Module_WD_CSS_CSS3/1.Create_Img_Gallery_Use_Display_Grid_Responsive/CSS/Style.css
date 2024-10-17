@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    background-color: black;
+}
+.image-container {
+    width: 375%;
+    height: auto;
+}
+/* First Columm CSS */
+.first-column-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30%;
+}
+.Alpha{
+    display: block;
+    width: 182%;
+    height: 60%;
+    object-fit: cover;
+}
+.Beach{
+    display: block;
+    width: 99%;
+    height: 60%;
+    object-fit: cover;
+}
+/* Second Columns CSS */
+.second-columns-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -15%;
+}
+.cool-image {
+    display: block;
+    width: 50%;
+    height: 54%;
+    object-fit: cover;
+}
+.decorand-image {
+    display: block;
+    width: 178%;
+    height: 54%;
+    margin-left: -47%;
+    object-fit: cover;
+}
+.girl-image {
+    display: block;
+    width: 64%;
+    height: 54%;
+    margin-left: 34%;
+}
+/* Third Column CSS */
+.third-column-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30%;
+    margin-top: -17%;
+}
+.Mungfali-Image{
+    display: block;
+    width: 142%;
+    height: 65%;
+    object-fit: cover;
+}
+.sguru-image{
+    display: block;
+    width: 139%;
+    height: 65%;
+    object-fit: cover;
+    margin-left: -40%;
+}
+/* Fourth Column CSS */
+.fourth-column-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -10%;
+    margin-bottom: -125px;
+}
+.student-women-image {
+    display: block;
+    width: 83%;
+    height: 62%;
+    object-fit: cover;
+}
+.tree-image {
+    display: block;
+    width: 146%;
+    height: 62%;
+    margin-left: -14%;
+}
+.Wallpaperaccess-paper {
+    display: block;
+    width: 65%;
+    height: 62%;
+    object-fit: cover;
+    margin-left: 34%;
+}
+/* sidebar css */
+.sidebar-container {
+    background: black;
+    color: white;
+    width: 64%;
+    height: auto;
+}
+.sidebar-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.header h2 {
+    font-size: 20px;
+    font-family: monospace;
+}
+.list-items {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: monospace;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    gap: 15px;
+}
